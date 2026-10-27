@@ -1,0 +1,22 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'pl.mobi.chat'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'pl.mobi.chat'
+        minSdk 26
+        targetSdk 36
+        versionCode 2
+        versionName '1.0.1'
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    buildTypes { release { minifyEnabled false } }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.json:json:20240303'
+    androidTestImplementation 'androidx.test:runner:1.6.2'
+    androidTestImplementation 'junit:junit:4.13.2'
+}
