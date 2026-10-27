@@ -4,9 +4,15 @@ Natywna aplikacja Android (Java), interfejs po polsku, ciemny motyw, bez pośred
 
 Wersja 1.0.1 zmienia kolorystykę na neutralny ciemny motyw w stylu ChatGPT: grafitowe tło, szare powierzchnie i białe akcenty. Aktualizację APK instaluj na istniejącą aplikację, bez odinstalowywania, aby zachować połączenia i historię.
 
+<p>
+  <img src="screenshots/welcome.png" width="220" alt="Ekran powitalny">
+  <img src="screenshots/chat.png" width="220" alt="Czat">
+  <img src="screenshots/connections.png" width="220" alt="Połączenia">
+</p>
+
 ## Instalacja na telefonie
 
-1. Przenieś `dist/Mobi.apk` na telefon (USB, Dysk Google lub inna wybrana metoda).
+1. Pobierz `Mobi.apk` z [najnowszego wydania](https://github.com/aczeki/Mobi/releases/latest) i przenieś na telefon (USB, Dysk Google lub inna wybrana metoda). Suma kontrolna SHA-256 jest w pliku `SHA256.txt` przy wydaniu.
 2. Otwórz plik na telefonie i zezwól wybranej aplikacji na instalację z tego źródła, jeśli Android o to poprosi.
 3. Uruchom **Mobi → Połączenia → Dodaj połączenie**.
 4. Wybierz dostawcę, wklej swój klucz API i wybierz **Pobierz modele z API** lub wpisz identyfikator modelu ręcznie.
